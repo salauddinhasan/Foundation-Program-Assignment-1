@@ -73,9 +73,4 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
 };
 
 
-console.log(getChaseVerdict(200, 200, 12));  // Won
-console.log(getChaseVerdict(200, 190, 0));   // Lost
-console.log(getChaseVerdict(100, 90, 12));   // Need 10 runs in 12 balls | Comfortable
-console.log(getChaseVerdict(100, 80, 12));   // Need 20 runs in 12 balls | Tough
-console.log(getChaseVerdict(100, 70, 12));   // Need 30 runs in 12 balls | Almost Impossible
-console.log(getChaseVerdict(150, 149, 1)); 
+ 
