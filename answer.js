@@ -24,7 +24,7 @@ function getDayType(day) {
 }
 
 //Question No. 3
- 
+
 function validateUsername(username) {
   if (username.length < 4) {
     return "Too Short";
@@ -37,10 +37,9 @@ function validateUsername(username) {
   }
 }
 
- 
 //Question No. 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
-  let fare = 50;  
+  let fare = 50;
   if (distance > 2) {
     fare = fare + (distance - 2) * 15;
   }
@@ -51,7 +50,7 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
   return fare;
 }
 
- //Question No. 5
+//Question No. 5
 const getChaseVerdict = (target, scored, ballsLeft) => {
   let runsNeeded = target - scored;
   if (runsNeeded <= 0) {
@@ -71,6 +70,3 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
   }
   return `Need ${runsNeeded} runs in ${ballsLeft} balls | ${verdict}`;
 };
-
-
- 
